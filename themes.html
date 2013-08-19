@@ -1,0 +1,66 @@
+<html>
+<head>
+
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.3.0/jquery.mobile-1.3.0.min.js"></script>
+<script src="scripts.js"></script>
+    
+
+<title>Home</title>
+</head>
+<body>
+	<div data-role="page" id="themes">
+		<div data-role="panel" id="menuPanel" data-theme="a" data-position-fixed="true">
+			<ul data-role="listview" data-theme="a">
+				<li><a href="basicInfo.html">Basic Info</a></li>
+				<li><a href="interestingDetails.html">Interesting Details</a></li>
+				<li><a href="bookSummary.html">Book Summary</a></li>
+				<li><a href="themes.html" class="ui-btn-active ui-state-persist">Themes</a></li>
+				<li><a href="characters.html">Characters</a></li>
+				<li><a href="chapterSummaries.html">Chapter Summaries</a></li>
+				<li><a href="essayTopics.html">Essay Topics</a></li>
+			</ul>
+		</div><!--PANEL-->	
+		<div data-role="header" data-id="fixhead" data-position="fixed" data-tap-toggle="false">
+			<a href="#menuPanel" data-role="button" data-iconpos="notext" data-icon="bars"></a>
+			<h1>Themes</h1>
+			<a href="index.html" data-role="button" data-iconpos="notext" data-icon="home"></a>
+		</div><!--HEADER-->
+		<div data-role="content">
+			<div>
+				<!--For each section, paste the text in place of the bolded keyword-->
+				<!--Copy more from <ul *to* /ul> if more themes needed-->
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">The Conflict Between Military Heroism and Love</li>
+					<li data-theme="d">Othello is a dedicated and valuable soldier in Venice, he is also well respected</li>
+					<li data-theme="c">Being older and newly married, he has spent much of his life focused on being a military man as opposed a husband</li>
+					<li data-theme="d">Though he loves his wife Desdemona very much his military roles will always come first</li>
+					<li data-theme="c">This proves to be a problem as the play wears on however, as Othello is summoned to Cyprus on military matters and choses to bring Desdemona along with him</li>
+					<li data-theme="d">Othello had originally wooed Desdemona with his tales of military heroism as it gave him great confidence</li>
+					<li data-theme="c">However once in Cyprus with seemingly no military duties to take care of his confidence begins to wane</li>
+					<li data-theme="d">He fears of losing his wife which ultimately makes him vulnerable to Iago's deception</li>
+					<li data-theme="c">Iago is able to get under Othello's skin and convince him his wife is unfaithful</li>
+					<li data-theme="d">The powerful military man does not like to not have control in a situation, and the lack of control in his wife's alleged affair leads him to seemingly crack</li>
+					<li data-theme="c">He cannot separate the two lives from each other and therefore he is subject to downfall</li>
+				</ul>
+				<ul data-role="listview" data-inset="true">
+					<li data-theme="b">The Danger of Isolation</li>
+					<li data-theme="d">As the play shifts from the large city of Venice to the smaller island town of Cyprus the plot thickens</li>
+					<li data-theme="c">The new setting is a very isolated as it is a small island with strong fortifications</li>
+					<li data-theme="d">On this island the main characters are in close proximity very often however they each desire their own individual isolation</li>
+					<li data-theme="c">Iago often speaks to the audience in soliloquies</li>
+					<li data-theme="d">Roderigo is only connected to Iago and therefore is isolated from the other characters</li>
+					<li data-theme="c">Othello seeks to be alone in contemplation at times as he contemplates his wife's alleged infidelity</li>
+					<li data-theme="d">Each character desires their isolation, yet due to the setting it is not so hard to come by</li>
+					<li data-theme="c">Therefore the unfavorable setting that isolates the characters from society, however not providing them with the isolation they needs is a recipe for disaster</li>
+				</ul>
+			</div>
+		</div><!--CONTENT-->
+		<div data-role="footer" data-id="fixfoot" data-position="fixed" data-tap-toggle="false">
+			<!--Replace the text below with the name of the book-->
+			<h3>Othello</h3>
+		</div><!--FOOTER-->
+	</div><!--PAGE-->
+</body>
+</html>
